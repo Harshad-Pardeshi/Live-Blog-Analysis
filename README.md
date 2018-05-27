@@ -1,5 +1,5 @@
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/WebHose.io.png"></img> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/WebHose.io.png"></img> <br />
 
 <b>About WebHose</b> <br />
 WebHose provides on-demand access to web data feeds anyone can consume. Webhose.io empowers its customers to build, launch, and scale data-driven operations as they grow -- whether they are an entrepreneur, a researcher, or a senior executive at a Fortune 500 company. Developers get free access to the same web data feeds that power their growing customer base of global media analytics and monitoring leaders. Every web data feed is optimized to deliver up-to-the-minute coverage of a specific content domain, such as news, blogs, online discussions, and more. Just define your filters so you can focus on what you do best.  <br />
@@ -9,7 +9,7 @@ Webhose.io is the brainchild of Ran Geva and Guy Mor, two entrepreneurs with ext
 
 Each JSON files has the below structure <br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/Dataset%20Summary.PNG"></img> <br />  <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/Dataset%20Summary.PNG"></img> <br />  <br />
 
 I have followed the below steps to  <br />
 • Download live data <br />
@@ -24,7 +24,7 @@ I have followed the below steps to  <br />
 • Set this token as an environmental variable for easy accessibility <br />
 • Pass ‘Reviews’ as a query to get 100 latest blogs, news and discussion about various reviews on the internet in JSON format. (Each JSON file represents one blog) <br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/Download%20Data.PNG"></img> <br /> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/Download%20Data.PNG"></img> <br /> <br />
 
 <b>Store Raw Data</b> <br />
 <b>Approach:</b> <br />
@@ -36,7 +36,7 @@ I have followed the below steps to  <br />
 • The naming format for each JSON file is: ‘UUID_time_stamp’ for easy identification <br />
 • JSON files with missing country tag are moved to ‘Not Mentioned’ folder <br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/Data%20Storage.PNG"></img> <br /> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/Data%20Storage.PNG"></img> <br /> <br />
 
 <b>File</b>: API_download_store.ipymb <br /> <br />
 
@@ -74,7 +74,7 @@ We implement this algorithm to understand what is the current trending topic amo
 • We then use NLTK package to remove the stop words in English and generate a ‘tfanalysis’ DataFrame containing only the text  <br /> <br />
 
 <b>Mathematical equation</b> <br />
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/tf-idf.PNG"></img>  <br /> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/tf-idf.PNG"></img>  <br /> <br />
 
 <b>Approach:</b> <br />
 • Read the processed data <br />
@@ -92,7 +92,7 @@ Tf-idf takes 1 hour to analyze 700 blogs <br /> <br />
 <b>Input File</b>: Analysis1.ipymb <br />
 <b>Output File</b>: Analysis1.csv in 'Final/Data/Analysis/Analysis 1' folder<br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Analysis/Analysis%201/Analysis%201.PNG"></img>  <br /> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Analysis/Analysis%201/Analysis%201.PNG"></img>  <br /> <br />
 
 <b>Analysis 2:</b> Get country wise distribution of number of people contributing to blog writing and replying to various blog over the past month. <br /> <br />
 
@@ -108,7 +108,7 @@ Tf-idf takes 1 hour to analyze 700 blogs <br /> <br />
 
 <b>File</b>: Analysis2.ipymb <br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Analysis/Analysis%202/Analysis%202.PNG"></img>    <br /> <br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Analysis/Analysis%202/Analysis%202.PNG"></img>    <br /> <br />
 
 <b>Analysis 3:</b> Find the most preferred language to write a blog <br /> <br />
 
@@ -125,9 +125,9 @@ English is the most preferred language to write a blog because of the following:
 
 <b>File</b>: Analysis3.ipymb <br /> <br />
 
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Analysis/Analysis%203/Analysis%203_1.PNG"></img>
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Analysis/Analysis%203/Analysis%203_2.PNG"></img>
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Analysis/Analysis%203/Analysis%203_3.PNG"></img>
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Analysis/Analysis%203/Analysis%203_1.PNG"></img>
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Analysis/Analysis%203/Analysis%203_2.PNG"></img>
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Analysis/Analysis%203/Analysis%203_3.PNG"></img>
 
  <br /> <br />
 
@@ -136,9 +136,9 @@ I have presented my analysis on 702 blogs that I have downloaded using the API. 
 <b>Instruction to run the project:</b> <br /> <br />
 • Open GitBash in the location you have saved the above downloaded repository  <br />
 • Export the token key as shown in the below screen shot <br /> <br />
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/API_key_instruction.PNG"></img> <br /><br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/API_key_instruction.PNG"></img> <br /><br />
 • Open jupyter notebook from this GitBash and run the 'API_download_store.ipymb' file <br /> <br />
-<img src="https://github.com/PrithviKamath/Live-Blog-Analysis/blob/master/Final/Extra/Jupyter_notebook.PNG"></img> <br /><br />
+<img src="https://github.com/Harshad-Pardeshi/Live-Blog-Analysis/tree/master/Extra/Jupyter_notebook.PNG"></img> <br /><br />
 • Run the 'Get_processed_data.ipymb' file to get processed data from raw files <br />
 • Run the 'Analysis1.ipymb' file to get output for first analysis. Output will be saved in '/Final/Analysis/Analysis 1' <br />
 • Run the 'Analysis2.ipymb' file to get output for second analysis. Output is a seaborn graph that is display in jupyter notebook <br />
